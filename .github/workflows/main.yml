@@ -8,6 +8,6 @@ jobs:
     - name: Publish to Docker Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: cloudblog/githubactions:v7
+        name: jek2141/githubactions:v7
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
